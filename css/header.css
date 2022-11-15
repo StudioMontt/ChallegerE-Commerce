@@ -1,15 +1,16 @@
-.logo {
+.logo a {
+    width: 200px;
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.logo img {
+.logo a img {
     height: 31px;
     width: 42px;
 }
 
-.logo img:last-child {
+.logo a img:last-child {
     height: 19px;
     width: 134px;
 }
@@ -42,10 +43,15 @@
     justify-content: flex-end;
 }
 
+.access a {
+    width: 80%;
+}
+
 .access button {
     background: none;
     border: 1px solid var(--azul-destaque);
     text-transform: uppercase;
+    min-width: ;
 }
 
 .access button:hover {
@@ -54,12 +60,12 @@
 }
 
 @media (max-width: 769px) {
-    .logo img {
+    .logo a img {
         height: 25px;
         width: 34px;
     }
 
-    .logo img:last-child {
+    .logo a img:last-child {
         height: 15px;
         width: 107px;
     }
@@ -70,12 +76,12 @@
 }
 
 @media (max-width: 426px) {
-    .logo img {
+    .logo a img {
         height: 20px;
         width: 27px;
     }
 
-    .logo img:last-child {
+    .logo a img:last-child {
         height: 12px;
         width: 86px;
     }
