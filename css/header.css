@@ -36,19 +36,19 @@
     background-position: right;
 }
 
-.login {
+.access {
     width: 35%;
     display: flex;
     justify-content: flex-end;
 }
 
-.login button {
+.access button {
     background: none;
     border: 1px solid var(--azul-destaque);
     text-transform: uppercase;
 }
 
-.login button:hover {
+.access button:hover {
     background-color: var(--azul-destaque);
     color: var(--texto-destaque);
 }

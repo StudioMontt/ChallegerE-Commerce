@@ -1,0 +1,49 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	align-items: center;
+}
+
+.login h3 {
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+.formLogin {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.formLogin input {
+	height: 40px;
+	border: transparent;
+	margin-bottom: 20px;
+	color: var(--azul-destaque);
+}
+
+.login button {
+	margin: 20px 0 40px;
+	width: 100%;
+	height: 40px;
+	background-color: var(--azul-destaque);
+	border: none;
+	color: var(--texto-destaque);
+}
+
+@media (max-width: 426px) {
+	.login {
+		width: 96%;
+	}
+
+	.formLogin input {
+		height: 60px;
+	}
+
+	.login button {
+		margin: 20px 0 20px;
+		height: 60px;
+	}
+}

@@ -6,12 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="css/styles.css" rel="stylesheet" />
 		<link href="css/header.css" rel="stylesheet" />
-		<link href="css/entry.css" rel="stylesheet" />
+		<link href="css/login.css" rel="stylesheet" />
 		<link href="css/contacto.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com" rel="preconnect"/>
         <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet"/>
-		<title>NewProduct</title>
+		<title>Login</title>
 	</head>
 	<body>
 		<header>
@@ -25,29 +25,24 @@
                     <input i="" placeholder="Qué deseas buscar?" type="text"/>
                 </div>
                 <div class="access">
-                    <a href="menu.html">
+                    <a href="index.html">
                         <button type="submit">
-                            Menu Adm.
+                            Home
                         </button>
                     </a>
                 </div>
             </nav>
         </header>
-        <section class="entry">
-        	    <h1>Agregar nuevo producto</h1>
-        	    <div class="formProd">
-                    <input class="input-url" id="url" name="url" placeholder="URL de imagen" type="text">
+        <section class="login">
+        	    <h3>Iniciar Sesión</h3>
+        	    <div class="formLogin">
+                    <input class="input-email" id="email" name="email" placeholder="Escriba su correo electrónico" type="email">
                     </input>
-                    <input class="input-categoria" id="categoria" name="categoria" placeholder="Categorias" type="text">
-                    </input>
-                    <input class="input-producto" id="producto" name="producto" placeholder="Nombre del producto" type="text">
-                    </input>
-                    <input class="input-precio" id="precio" name="precio" placeholder="Precio" type="text">
+                    <input class="input-contrasena" id="contrasena" name="contrasena" placeholder="Escriba su contraseña" type="password">
                     </input>
                 </div>
-                <textarea cols="5" id="msg" name="descripcion" placeholder="Descripción del producto" rows="5"></textarea>
                 <button>
-                    Agregar producto
+                    Entrar
                 </button>
         </section>
         <section class="contacto">
